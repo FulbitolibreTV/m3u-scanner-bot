@@ -1,0 +1,14 @@
+{
+  "name": "m3u-scanner-bot",
+  "version": "1.0.0",
+  "description": "Bot de Telegram para escanear listas M3U",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "axios": "^1.7.7",
+    "m3u8-parser": "^7.1.0"
+  }
+}
